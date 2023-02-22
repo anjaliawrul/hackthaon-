@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restuarent Den</title> 
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#/"><i class="fa fa-user"></i>About Us</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</i></a></li>
+                        <li><a href="#">Team</i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-clone"></i>Blog</a></li>
+            <li><a href="#"><i class="fa fa-edit"></i>Menu</a></li>
+            <li><a href="#"><i class="fa fa-clone">Service</i></a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Website Features</a></li>
+                        <li><a href="#">Online ordering</i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+    </div>
+    <div class="wd">
+        <h1>Welcome to Foodfries!</h1>
+        <h4>We only serve the freshest ingredients</h4>
+        <h2>Reservation</h2>
+        <div class="opt">
+        <form action="" method="post">
+            <input type="button" value="Start Now">
+        </form>
+    </div>
+</body>
+</html>
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+} -->
+body
+{
+    background-image: url("restuarant.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-color:rgb(0,100,0) ;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style:none ;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px ;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px; -->
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:rgb(0,100,0)  ;
+}
+.wd{
+
+
+
+
+    !DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restuarent Den</title> 
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#/"><i class="fa fa-user"></i>About Us</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</i></a></li>
+                        <li><a href="#">Team</i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a …
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("restuarant.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-color:rgb(0,100,0) ;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style:none ;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px ;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0…
